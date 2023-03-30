@@ -318,7 +318,7 @@ hr {
 
 .text-top-animation {
     animation-name: text-top;
-    animation-duration: 5s;
+    animation-duration: 9s;
     animation-iteration-count: infinite;
 }
   
@@ -330,23 +330,43 @@ hr {
         
     }
 
-    25% {
+    12.5% {
         color: #0B2447;
         
     }
 
-    50% {
+    25% {
         color: #19376D;
         
     }
 
-    75% {
+    37.5% {
         color: #576CBC;
         
     }
 
+    50% {
+        color: #A5D7E8;
+        
+    }
+
+    62.5% {
+        color: #576CBC;
+        
+    }
+
+    75% {
+        color: #19376D;
+        
+    }
+
+    87.5% {
+        color: #0B2447;
+        
+    }
+
     100% {
-        color: black;
+        color: #000;
         
     }
 }
